@@ -24,7 +24,7 @@ pokemon_list = open("poke_list.json")
 pokemon_list = json.load(pokemon_list)
 pokemon_list = pokemon_list["data"]
 
-print("Pokemon Generation numbers:\nGen 1 [1,151]\nGen 2 [152,251]\nGen 3 [252,386]\nGen 4 [387,493]\nGen 5 [494, 649]\nGen 6 [650, 721]\nGen 7 [722, 809]\nGen 8 [810,898]")
+print("Pokemon Generation numbers:\nGen 1 [1,151]\nGen 2 [152,251]\nGen 3 [252,386]\nGen 4 [387,493]\nGen 5 [494,649]\nGen 6 [650,721]\nGen 7 [722,809]\nGen 8 [810,905]")
 passed = False
 while not passed:
     try:
@@ -37,8 +37,8 @@ while not passed:
         if start < 1:
             print("starting number must be at least 1")
             passed = False
-        if end > 898:
-            print("ending number must be at most 898")
+        if end > 905:
+            print("ending number must be at most 905")
             passed = False
     except ValueError:
         print("Input must be a number")
