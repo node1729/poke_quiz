@@ -1,2 +1,12 @@
 stats.json
 guesses/
+quiz.exe
+dist/
+build/
+__pycache__/
+.gitignore
+stats_node.json
+test.py
+quiz.zip
+quiz.spec
+pokequiz/

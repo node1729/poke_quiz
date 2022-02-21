@@ -1,3 +1,4 @@
+from email.policy import default
 from tkinter import *
 from tkinter import ttk
 from PIL import Image, ImageTk, ImageFont, ImageDraw
@@ -135,7 +136,7 @@ def end_of_quiz(): # TODO make this display stats
 root = Tk()
 canvas = Canvas(root, width=475, height=475)
 canvas.pack(expand=YES)
-e = Entry(root)
+e = Entry(root, font=100)
 e.pack()
 
 # initial setup
